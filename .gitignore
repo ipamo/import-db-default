@@ -1,0 +1,42 @@
+# Local
+[Ll]ocal
+*[._-][Ll]ocal
+!**/vimrc.local
+[Ll]ocal[._-]*
+*[._-][Ll]ocal[._-]*
+
+# Python
+__pycache__
+*.pyc
+.venv
+.eggs
+*.egg-info
+_version.py
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Secrets
+secrets
+*.key
+
+# Javascript and front-end assets
+node_modules
+*.min.js
+*.min.css
+**/static/lib
+
+# Build, log or temporary assets
+*~
+~*
+*.tmp
+*.log
+tmp
+build
+dist
+.DS_Store
+
+# Editors
+.vscode
+.vs
