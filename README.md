@@ -1,6 +1,8 @@
 Import field with Django 5.0 db_default date
 ============================================
 
+See the [reported issue](https://github.com/django-import-export/django-import-export/issues/1736).
+
 ## How to reproduce
 
 Create Python environment:
